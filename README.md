@@ -2,6 +2,8 @@
 
 A tiny click-to-chase ball game. Click anywhere and nearby balls bolt away — they also drift clear of your cursor if you get too close.
 
+**Play online:** [https://scatter-production.up.railway.app/](https://scatter-production.up.railway.app/)
+
 ## Play locally
 
 From this directory:
