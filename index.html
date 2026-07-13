@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scatter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <header class="top">
+      <h1 class="brand">Scatter</h1>
+      <p class="hint">Click — they bolt. Chase them if you dare.</p>
+    </header>
+    <div class="hud">
+      <span id="flee-count">0 flees</span>
+      <button type="button" id="reset" class="reset">Reset</button>
+    </div>
+    <canvas id="field" aria-label="Playfield with fleeing balls"></canvas>
+    <script src="game.js"></script>
+  </body>
+</html>
